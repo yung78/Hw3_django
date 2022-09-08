@@ -1,0 +1,38 @@
+[
+  {
+    "model": "books.book",
+    "pk": 1,
+    "fields": {
+      "name": "Война и мир",
+      "author": "Л.Н. Толстой",
+      "pub_date": "1869-02-27"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 2,
+    "fields": {
+      "name": "1984",
+      "author": "Джордж Оруэл",
+      "pub_date": "1949-06-08"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 3,
+    "fields": {
+      "name": "Идиот",
+      "author": "Ф.Д. Достоевский",
+      "pub_date": "2018-02-23"
+    }
+  },
+  {
+    "model": "books.book",
+    "pk": 4,
+    "fields": {
+      "name": "Обломов",
+      "author": "И.А. Гончаров",
+      "pub_date": "1859-10-03"
+    }
+  }
+]

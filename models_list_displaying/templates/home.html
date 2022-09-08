@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Каталог книг{% endblock %}
+{% block content %}
+<style>
+   h1 {
+    margin-bottom: 100px;
+   }
+  </style>
+<div class="container">
+    <div class="header">
+        <h1>Домашняя страница</h1>
+    </div>
+    <div class="row">
+        <div class="book col-md-4">
+            <h5>Выберите раздел:</h5>
+            {% for title, url in pages.items %}
+            <h6>
+                <a href="{{ url }}">{{ title }}</a>
+            </h6>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}
